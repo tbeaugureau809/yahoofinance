@@ -20,3 +20,4 @@ for t in tickers:
     stock = yf.Ticker(t)
     print(t, stock.info.get("longName"),  stock.info.get("currentPrice"))
 
+print("test")
